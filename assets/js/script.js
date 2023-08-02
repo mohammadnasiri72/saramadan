@@ -24,4 +24,3 @@ menu.addEventListener("click" , function(){
   flagMenu = 0
  }
 })
-document.body.style.width= window.innerWidth
