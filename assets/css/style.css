@@ -1,0 +1,400 @@
+@font-face {
+    font-family: "yekan";
+    src: url("../font/Yekan.ttf");
+}
+
+@font-face {
+    font-family: "nas";
+    src: url("../font/Shekasteh\ V2.001.ttf");
+}
+
+@font-face {
+    font-family: "vazir";
+    src: url("../font/Vazir.ttf");
+}
+
+body {
+    font-family: "vazir";
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #576CBC;
+}
+
+a {
+    text-decoration: none;
+}
+.menu-respons{
+    z-index: 5465465465;
+    transition: 0.4s;
+    overflow: hidden;
+    position: absolute;
+    right: 100%;
+
+}
+
+/* ////////////////////
+///////////////////////
+///////////////////////
+///////////////////////
+////   header    //////
+///////////////////////
+///////////////////////
+///////////////////////
+//////////////////// */
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: #0B2447;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+.logo-khomeini{
+    width: 90px;
+    height: 90px;
+}
+
+.text-logo {
+    color: white;
+    font-family: "nas";
+    font-size: 25px;
+}
+
+.text2-logo {
+    color: white;
+    font-family: "nas";
+    font-size: 16px;
+}
+
+.link-login {
+    color: white;
+    background-color: #576CBC;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.link-login:hover {
+    color: white;
+    background-color: #19376D;
+}
+
+.link-login-res {
+    color: white;
+    background-color: #576CBC;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.link-login-res:hover {
+    color: white;
+    background-color: #0B2447;
+}
+
+.menu-res {
+    width: 100%;
+    height: 50px;
+    background-color: #19376D;
+}
+
+.icon-menu {
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+
+
+/* ////////////////////
+///////////////////////
+///////////////////////
+///////////////////////
+////   main    ////////
+///////////////////////
+///////////////////////
+///////////////////////
+//////////////////// */
+
+
+
+
+
+
+.box-fix-right {
+    background-color: #19376D;
+    color: white;
+    text-align: center;
+    z-index: 10;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.txt-icon {
+    cursor: pointer;
+}
+
+.icon-box-right {
+
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.box-img-right {
+    padding: 15px;
+    transition: 0.4s;
+}
+
+.box-img-right:hover {
+    background-color: #A5D7E8;
+    color: #0B2447;
+}
+
+.img1 {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.img2 {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.main-img {
+    width: 800px;
+    height: calc(100vh - 170px);
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.pic-news {
+    width: 100%;
+
+}
+
+.title-pic-news {
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+}
+
+.icon-time {
+    font-size: 20px;
+}
+
+.blog-right {
+    overflow: hidden;
+}
+
+.blog {
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #19376D;
+}
+
+.blog-left {
+    color: rgba(255, 255, 255, 0.39);
+}
+
+.btn {
+    background-color: #0B2447;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #19376D;
+}
+
+
+
+
+
+
+
+
+
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #576CBC;
+    width: 250px;
+    height: 180px;
+}
+
+
+.box-slider {
+    margin-top: 10px;
+    padding: 0 50px;
+}
+
+.title-news {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.slider-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: multiply;
+    transition: 0.4s;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.text-slider-image {
+    color: white;
+    opacity: 0;
+    transition: 0.4s;
+    width: 80%;
+}
+
+.slider-image:hover .text-slider-image {
+    opacity: 1;
+}
+
+.slider-img1 {
+    background-image: url("../img/sl1.jpg");
+}
+
+.slider-img2 {
+    background-image: url("../img/sl2.jpg");
+}
+
+.slider-img3 {
+    background-image: url("../img/sl3.jpg");
+}
+
+.slider-img4 {
+    background-image: url("../img/sl1.jpg");
+}
+
+.slider-img5 {
+    background-image: url("../img/sl2.jpg");
+}
+
+.slider-img6 {
+    background-image: url("../img/sl3.jpg");
+}
+
+.slider-image:hover {
+    background-color: rgba(0, 0, 0, 0.61);
+}
+.social-network{
+    width: 100%;
+    height: 150px;
+    background-color: #19376D;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.title-social-network{
+    margin-bottom: 10px;
+}
+.hr{
+    width: 80%;
+    margin: auto;
+}
+.box-img-social-network{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+.img-social-network{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+
+/* ////////////////////
+///////////////////////
+///////////////////////
+///////////////////////
+////   footer    //////
+///////////////////////
+///////////////////////
+///////////////////////
+//////////////////// */
+
+
+
+footer{
+    background-color: #0B2447;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+.logo-footer{
+    
+    text-align: center;
+    margin: auto;
+}
+.logo-footer-img{
+    width: 100px;
+    height: 100px;
+}
+.text-logo-footer{
+    color: white;
+    text-align: center;
+    font-family: "nas";
+    font-size: 2rem;
+}
+.title-footer{
+    color: white;
+    margin-top: 50px;
+}
+.text-footer{
+    color: white;
+    width: 90%;
+    margin: auto;
+    font-size: 12px;
+    text-align: justify;
+}
+.conect-footer{
+    color: white;
+    font-size: 14px;
+}
+.notefoot-text{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
