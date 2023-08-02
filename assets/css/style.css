@@ -12,9 +12,7 @@
     font-family: "vazir";
     src: url("../font/Vazir.ttf");
 }
-html{
-    overflow-x: hidden;
-}
+
 
 body {
     font-family: "vazir";
@@ -23,6 +21,7 @@ body {
     direction: rtl;
     box-sizing: border-box;
     background-color: #576CBC;
+    overflow-x: hidden;
 }
 
 a {
